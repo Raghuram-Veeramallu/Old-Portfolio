@@ -1,0 +1,23 @@
+.bg_1{
+	background: #000;
+}
+.bg_2{
+	background: #0F1113;
+}
+.preloader{
+	background: #000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;	
+}
+.dark_heading.section_heading h2 {
+    color: #fff;
+}
+.dark_heading.section_heading:after {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+}
