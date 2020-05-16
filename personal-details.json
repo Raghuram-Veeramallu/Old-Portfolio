@@ -1,0 +1,40 @@
+{
+    "showcase-personal-summary": {
+        "name": "Hari Sai Raghuram Veeramalllu",
+        "my-details": ["Data Analyst", "Software Developer"]
+    },
+    "about-me": {
+        "name": "",
+        "main-summary": "",
+        "deatiled-summary": "",
+        "full-name": "",
+        "age": "",
+        "phone": "",
+        "email": "",
+        "conact-me": ""
+    },
+    "resume-details":{
+        "cover-letter": "COVER",
+        "education": {
+            "time": "2020",
+            "institute": "Shiv Nadar University",
+            "details": [
+                "B.Tech",
+                "as",
+                ""
+            ]
+        },
+        "professional": {
+            "time": "2020",
+            "company": "Josh",
+            "details": [
+                "SD"
+            ]
+        }
+    },
+    "contact-info": {
+        "address": "",
+        "email": "",
+        "phone": ""
+    }
+}
