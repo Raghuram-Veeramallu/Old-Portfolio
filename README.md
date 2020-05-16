@@ -1,4 +1,7 @@
-# New Portfolio
+# Hari Sai Raghuram Portfolio
 
 Work in progress...
-Be updated soon
+
+Expected Launch Date: 31-May-2020
+
+Keep visiting for more informaiton.

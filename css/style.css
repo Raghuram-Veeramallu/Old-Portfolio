@@ -1,44 +1,3 @@
-/***************************************
-========================================
-
-	Author Name   : Belal Hossain
-	This is html template
-	Template Name : Larson - Minimal Personal Portfolio Template
-	Version: 1.0
-	
-****************************************
-=======================================/
-
-
-
-/* ----------------------------------------------------------------
-
- ==> Table Of Content
-
-	01 Basics
-	02 Buttons
-	03 Header
-	04 Banner
-	05 About
-	06 Service
-	07 Works 
-	08 Counter
-	09 Resume
-	10 Cta
-	11 Testimonial
-	12 Blog
-	13 Contact
-	14 Footer
-	15 Top-control
- 
-
----------------------------------------------------------------- */
-
-
-
-/* ----------------------------------------------------------------
-    [ 01 Start Basics ]
------------------------------------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -88,14 +47,8 @@ a:hover{
 .padding_0{
 	padding: 0;
 }
-.gray_bg{
+.bg_2{
 	background: #fafafa;
-}
-.dark_bg_1{
-	background: #000;
-}
-.dark_bg_2{
-	background: #0F1113;
 }
 .form-control::-webkit-input-placeholder {
     color: #666;
@@ -114,7 +67,7 @@ a:hover{
     opacity: 1; 
 }
 
-/* START PRELOADER DESIGN */
+/* preloaders  */
 .preloader {
 	background: #fff;
     bottom: 0;
@@ -124,15 +77,7 @@ a:hover{
     top: 0;
     z-index: 99999;	
 }
-.preloader.dark_preloader{
-	background: #000;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 99999;	
-}
+
 .spinner {
 	width: 50px;
 	height: 50px;
@@ -150,20 +95,6 @@ a:hover{
   height: 100%;
   border-radius: 50%;
   background-color: #000;
-  opacity: 0.6;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
-}
-.dark_preloader .double-bounce1, .double-bounce2 {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: #fff;
   opacity: 0.6;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   position: absolute;
@@ -193,18 +124,20 @@ a:hover{
     -webkit-transform: scale(1.0);
   }
 }
-/* END PRELOADER DESIGN */
+/* preloaders done */
 
-/* Start Section-Padding */
+/* section paddings */
+
 .section_padding{
 	padding: 100px 0;
 }
 .pb_70{
 	padding-bottom: 70px;
 }
-/* End Section-Padding */
 
-/* Start Section-Heading */
+/* section paddings done */
+
+/* section heading */
 .section_heading {
     padding-bottom: 100px;
     padding-top: 0;
@@ -223,11 +156,6 @@ a:hover{
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
-.dark_heading.section_heading:after {
-    position: absolute;
-    content: "";
-    background-color: #fff;
-}
 .section_heading h2 {
     font-size: 40px;
     font-weight: 600;
@@ -235,27 +163,16 @@ a:hover{
     margin-top: 0;
     margin-bottom: 10px;
 }
-.dark_heading.section_heading h2 {
-    color: #fff;
-}
 .section_heading p {
 	margin: 0 auto;
     margin-bottom: 20px;
     max-width: 530px;
 }
-
-/* End Section-Heading */
-
-/* ----------------------------------------------------------------
-    [ End Basics ]
------------------------------------------------------------------*/
+/* section headings done */
 
 
+/* Buttons */
 
-/* ----------------------------------------------------------------
-    [ 02 Start Buttons ]
------------------------------------------------------------------*/
-/* Start Btn-Style */
 .main_btn {
     color: #fff;
     font-size: 14px;
@@ -272,19 +189,10 @@ a:hover{
     transition: all 0.3s ease-in-out 0s;
     position: relative;
 }
-.dark_bg_btn{
-    color: #000;
-    background: #fff;
-}
 .main_btn:focus,
 .main_btn:hover {
     color: #fff;
     background: #000;
-}
-.dark_bg_btn:focus,
-.dark_bg_btn:hover {
-    color: #000;
-    background: #fff;
 }
 .main_btn:before,
 .main_btn:after{
@@ -301,18 +209,8 @@ a:hover{
     left: 60%;
     right: 60%;
 }
-.dark_bg_btn:hover:before{
-    background: rgba(0, 0, 0, 0.7);
-    left: 60%;
-    right: 60%;
-}
 .main_btn:hover:after{
     background: rgba(255, 255, 255, 0.7);
-    top: 60%;
-    bottom: 60%;
-}
-.dark_bg_btn:hover:after{
-    background: rgba(0, 0, 0, 0.7);
     top: 60%;
     bottom: 60%;
 }
@@ -325,33 +223,19 @@ a:hover{
     position: absolute;
     right: 47%;
 }
-.about_btn .dark_cn {
-    background: transparent;
-	color: #fff;
-    border: 1px solid #fff;
-}
 .about_btn .contact_number:focus{
     background: transparent;
     border: 1px solid #000;
 	box-shadow: none;
 }
-.about_btn .dark_cn:focus{
-    background: transparent;
-    border: 1px solid #fff;
-	box-shadow: none;
-}
 .blog_btn {
     padding: 20px 30px;
 }
-/* ----------------------------------------------------------------
-    [ End Buttons ]
------------------------------------------------------------------*/
+/* buttons done */
 
 
-
-/* ----------------------------------------------------------------
-    [ 03 Start Header ]
------------------------------------------------------------------*/
+/* headers */
+/* TODO: separate dark mode from here */
 .navbar-default {
     border: none;
     border-radius: 0;
@@ -453,15 +337,12 @@ a:hover{
 .navbar-default.dark_bg_menu .navbar-toggle .icon-bar {
     background-color: #fff;
 }
-/* ----------------------------------------------------------------
-    [ End Header ]
------------------------------------------------------------------*/
+
+/* headers done */
 
 
 
-/* ----------------------------------------------------------------
-    [ 04 Start Banner ]
------------------------------------------------------------------*/
+/* banners */
 .main_banner{
 	height: 700px;
 	background-size: cover;
@@ -662,30 +543,21 @@ a:hover{
 		transform: translateY(20px);
 	}
 }	
-/* ----------------------------------------------------------------
-    [ End Banner ]
------------------------------------------------------------------*/
+
+/* banner done */
 
 
 
-/* ----------------------------------------------------------------
-    [ 05 Start About ]
------------------------------------------------------------------*/
+/* about */
 .about_content_area h5{
     font-size: 18px;
     margin-top: 0;
     font-weight: 500;
 }
-.dark_bg_1 .about_content_area h5{
-	color: #fff;
-}
 .about_content_area h3{
 	font-size: 30px;
 	font-weight: 600;
 	margin: 15px 0;
-}
-.dark_bg_1 .about_content_area h3{
-	color: #fff;
 }
 .about_me {
     margin-top: 30px;
@@ -705,9 +577,6 @@ a:hover{
     width: 150px;
     margin-right: 30px;
 }
-.dark_bg_1 .about_me span {
-    color: #fff;
-}
 .about_me span:after {
     content: ":";
     position: absolute;
@@ -716,15 +585,10 @@ a:hover{
 .about_btn .contact_btn{
 	position: relative;
 }
-/* ----------------------------------------------------------------
-    [ End About ]
------------------------------------------------------------------*/
+/* about done */
 
 
-
-/* ----------------------------------------------------------------
-    [ 06 Start Service ]
------------------------------------------------------------------*/
+/* service */
 .single_service{
     text-align: center;
     padding: 40px 30px;
@@ -733,14 +597,8 @@ a:hover{
 	position: relative;
     transition: 0.4s;
 }
-.dark_bg_2 .single_service{
-    background: #000;
-}
 .single_service:hover {
     box-shadow: 0px 1px 40px rgba(0,0,0, 0.15);
-}
-.dark_bg_2 .single_service:hover {
-    box-shadow: 0px 1px 40px rgba(255,255,255, 0.15);
 }
 .single_service .service_icon {
     position: relative;
@@ -754,13 +612,6 @@ a:hover{
     line-height: 70px;
     border-radius: 50%;
     text-decoration: none;
-    transition: 0.4s;
-    z-index: 0;
-}
-.dark_bg_2 .single_service .service_icon {
-    position: relative;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.1);
     transition: 0.4s;
     z-index: 0;
 }
@@ -793,9 +644,6 @@ a:hover{
     color: #000;
     font-weight: 500;
 }
-.dark_bg_2  .single_service h4 {
-    color: #fff;
-}
 .single_service p{
 	margin-top: 15px;
 }
@@ -811,29 +659,13 @@ a:hover{
 	background: rgba(0,0,0, 0.3);
 	border-radius: 30px;
 }
-.dark_bg_2 .service_slider .owl-dot{
-	margin: 0 5px;
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	background: rgba(255,255,255, 0.3);
-	border-radius: 30px;
-}
 .service_slider .owl-dot.active{
 	background: #000;
 }
-.dark_bg_2 .service_slider .owl-dot.active{
-	background: #fff;
-}
-/* ----------------------------------------------------------------
-    [ End Service ]
------------------------------------------------------------------*/
+/* service done */
 
 
-
-/* ----------------------------------------------------------------
-    [ 07 Start Works ]
------------------------------------------------------------------*/
+/* works */
 .work_filter ul {
 	padding: 0;
 	list-style: none;
@@ -853,9 +685,6 @@ a:hover{
     transition: all 0.5s ease-in-out;
 	position: relative;
 }
-.dark_bg_1 .work_filter ul li {
-    color: #fff;
-}
 .work_filter ul li:after {
     position: absolute;
     content: "";
@@ -871,10 +700,6 @@ a:hover{
 .work_filter ul li.active{
 	background-color: #000;
 	color: #fff;
-}
-.dark_bg_1 .work_filter ul li.active{
-	background-color: #fff;
-	color: #000;
 }
 .box{
     text-align: center;
@@ -920,32 +745,19 @@ a:hover{
 .port_content_button {
     margin-top: 10px;
 }
-/* ----------------------------------------------------------------
-    [ End Works ]
------------------------------------------------------------------*/
+/* works done */
 
 
-
-/* ----------------------------------------------------------------
-    [ 08 Start Counter ]
------------------------------------------------------------------*/
+/* counter */
 .single_counter {
     box-shadow: 0 0 30px rgba(0,0,0, 0.15);
     padding: 30px 0;
     border: 1px solid transparent;
 	transition: all 0.3s ease 0s;
 }
-.dark_bg_2 .single_counter {
-	box-shadow: 0 0 30px rgba(255,255,255, 0.15);
-    border: 1px solid #000;
-}
 .single_counter:hover{
 	background: #fff;
     border: 1px solid #000;
-}
-.dark_bg_2 .single_counter:hover{
-	background: none;
-    border: 1px solid #fff;
 }
 .single_counter .icon{
 	margin-bottom: 20px;
@@ -954,9 +766,6 @@ a:hover{
     font-size: 50px;
     color: #000;
 }
-.dark_bg_2 .single_counter .icon i {
-    color: #fff;
-}
 .single_counter span{
 	font-size: 30px;
 	font-weight: 800;
@@ -964,64 +773,40 @@ a:hover{
 	color: #000;
 	font-family: 'Montserrat', sans-serif;
 }
-.dark_bg_2 .single_counter span{
-	color: #fff;
-}
 .single_counter p{
     font-size: 16px;
     color: #666;
     font-weight: 600;
     margin-bottom: 0;
 }
-/* ----------------------------------------------------------------
-    [ End Counter ]
------------------------------------------------------------------*/
+/* counter done */
 
 
 
-/* ----------------------------------------------------------------
-    [ 09 Start Resume ]
------------------------------------------------------------------*/
+/* resume */
 .resume-container h3{
     font-size: 30px;
     margin-bottom: 30px;
     margin-left: 15px;
     font-weight: 600;
 }
-.dark_bg_1 .resume-container h3{
-	color: #fff;
-}
 .resume-container h3 i{
     margin-right: 15px;
     font-size: 30px;
-}
-.dark_bg_1 .resume-container h3 i{
-	color: #fff;
 }
 .single_resume strong{
     color: #000;
     font-size: 14px;
 }
-.dark_bg_1 .single_resume strong{
-    color: #fff;
-}
 .single_resume h5 {
     font-size: 16px;
     font-weight: 700;
-}
-.dark_bg_1 .single_resume h5 {
-    color: #fff;
 }
 .single_resume{
     box-shadow: 0px -1px 30px rgba(0,0,0, 0.1);
     display: block;
     padding: 30px 30px;
     margin-bottom: 30px;
-	position: relative;
-}
-.dark_bg_1 .single_resume{
-    box-shadow: 0px -1px 30px rgba(255,255,255, 0.2);
-    display: block;
 	position: relative;
 }
 .single_resume:after {
@@ -1036,26 +821,14 @@ a:hover{
     position: absolute;
     transition: all 0.3s ease;
 }
-.dark_bg_1 .single_resume:after {
-    content: "";
-    width: 90%;
-    height: 2px;
-    background: #fff;
-    position: absolute;
-    transition: all 0.3s ease;
-}
 .single_resume:hover:after {
     width: 100%;
 }
-/* ----------------------------------------------------------------
-    [ End Resume ]
------------------------------------------------------------------*/
+/* resume */
 
 
-
-/* ----------------------------------------------------------------
-    [ 10 Start Cta ]
------------------------------------------------------------------*/
+/* cta */
+/* TODO: Change the cta css in darkmode */
 .cta_section{
 	background: url(../images/cta-action.jpg);
 	position: relative;
@@ -1073,33 +846,17 @@ a:hover{
 	background: rgba(255,255,255, 0.90);
 	
 }
-.dark_overlay:before{
-	position: absolute;
-	content: "";
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0, 0.85);
-}
 .cta_content h3 {
     color: #000;
     font-size: 30px;
 	margin-top: 0;
     margin-bottom: 0;
 }
-.dark_overlay h3 {
-    color: #fff;
-}
-/* ----------------------------------------------------------------
-    [ End Cta ]
------------------------------------------------------------------*/
+/* cta done */
 
 
-
-/* ----------------------------------------------------------------
-    [ 11 Start Testimonial ]
------------------------------------------------------------------*/
+/* testimonials */
+/* TODO: separate darkmode css */
 .single_testimonial {
     margin: 0 50px;
     text-align: center;
@@ -1185,15 +942,13 @@ a:hover{
 .dark_bg_2 .testimonial_area .owl-dot.active{
 	background: #fff;
 }
-/* ----------------------------------------------------------------
-    [ End Testimonial ]
------------------------------------------------------------------*/
+
+/* done testimonials */
 
 
 
-/* ----------------------------------------------------------------
-    [ 12 Start Blog ]
------------------------------------------------------------------*/
+/* blog */
+/* TODO: separate dark mode css */
 .blog-thumb small {
 	color: #000;
 	font-weight: 600;
@@ -1243,15 +998,11 @@ a:hover{
     background: #000;
     box-shadow: 0 1px 30px rgba(255, 255, 255, 0.2);
 }
-/* ----------------------------------------------------------------
-    [ End Blog ]
------------------------------------------------------------------*/
+/* blog done */
 
 
 
-/* ----------------------------------------------------------------
-    [ 13 Start Contact ]
------------------------------------------------------------------*/
+/* contact */
 .contact {
 	overflow: hidden;
 	padding: 0;
@@ -1268,16 +1019,10 @@ a:hover{
     font-size: 15px;
     height: 45px;
 }
-.dark_bg_2 .form-control {
-    background: #fff;
-}
 .form-control:focus {
     border-color: #fafafa;
     box-shadow: none;
     outline: 0 none;
-}
-.dark_bg_2 .form-control:focus {
-    border-color: #fff;
 }
 .form-group #submitButton{
     width: 100%;
@@ -1286,9 +1031,6 @@ a:hover{
     background: #fafafa;
     padding: 30px 0;
     border-radius: 10px;
-}
-.dark_bg_2 .contact_details {
-    background: #fff;
 }
 .single_contact {
     padding-bottom: 30px;
@@ -1305,15 +1047,11 @@ a:hover{
 }
 .mb0 { margin-bottom: 0; }
 .pb_0{ padding-bottom: 0; }
-/* ----------------------------------------------------------------
-    [ End Contact ]
------------------------------------------------------------------*/
+/* contact done */
 
 
 
-/* ----------------------------------------------------------------
-    [ 14 Start Footer ]
------------------------------------------------------------------*/
+/* footer */
 .footer {
     padding: 30px 0;
     background: #1a1a1a;
@@ -1323,15 +1061,10 @@ a:hover{
 	color: #fff;
 	margin: 0;
 }
-/* ----------------------------------------------------------------
-    [ End Footer ]
------------------------------------------------------------------*/
+/* footer done */
 
 
-
-/* ----------------------------------------------------------------
-    [ 15 Start Top-control ]
------------------------------------------------------------------*/
+/* top-control */
 .topcontrol {
     background: #000 none repeat scroll 0 0;
     border-radius: 0;
@@ -1357,6 +1090,4 @@ a:hover{
     background: #fff;
     color: #000;
 }
-/* ----------------------------------------------------------------
-    [ End Top-control ]
------------------------------------------------------------------*/
+/* top-control done */
