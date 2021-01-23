@@ -28,9 +28,15 @@
 			if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
 				$(this).collapse('hide');
 			}
-			});				
+			});
 		/* END MENU-JS */
-		 
+
+		$(window).on('load', function(e){
+			var dob = new Date('March 26, 1999');
+			var today = new Date();
+			var age = Math.floor((today-dob) / (365.25 * 24 * 60 * 60 * 1000));
+		});
+		
 		/* START ISOTOP JS */
 			var $grid = $('.work_content_area').isotope({
 			  // options
@@ -70,6 +76,32 @@
 				}
 			});
 		/* END COUNDOWN JS */
+
+		$(".work_slider").owlCarousel({
+			loop:true,
+			navText:false,
+			autoplayHoverPause: false,
+			autoplay: 6000,
+			smartSpeed: 1000,
+			margin: 20,
+			autoPlay:true,
+			items:3,
+			responsive:{
+				320:{
+					items:1
+				},
+				767:{
+					items:2
+				},
+				991:{
+					items:3
+				},
+				1200:{
+					items:3
+				}
+			}
+			
+		});
 		
 		/* START SERVICE JS */
 			$(".service_slider").owlCarousel({

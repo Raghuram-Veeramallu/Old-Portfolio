@@ -103,7 +103,7 @@
 .bg_2  .single_service h4 {
     color: #fff;
 }
-.bg_2 .service_slider .owl-dot{
+.bg_2 .work_slider .owl-dot{
 	margin: 0 5px;
 	display: inline-block;
 	width: 10px;
@@ -111,7 +111,7 @@
 	background: rgba(255,255,255, 0.3);
 	border-radius: 30px;
 }
-.bg_2 .service_slider .owl-dot.active{
+.bg_2 .work_slider .owl-dot.active{
 	background: #fff;
 }
 
