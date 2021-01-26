@@ -1,0 +1,51 @@
+{
+    "top_profile": {
+        "iam": [
+            "Data Scientist", "Backend Developer", "ML Engineer"
+        ],
+        "iam_full": [
+            "Data Scientist", "Backend Developer", "ML Engineer"
+        ],
+        "title": "I am a Data Science at Josh Technology Group",
+        "summary": ""
+    },
+    "links": {
+        "fb": "",
+        "twitter": "",
+        "linkedin": "",
+        "github": ""
+    },
+    "about_me": {
+        "full_name": "Hari Sai Raghuram Veeramallu",
+        "age": "21",
+        "address": "Hyderabad, India",
+        "ph_no": "+91 920 526 0085",
+        "email": "harisairaghuramv@gmail.com"
+    },
+    "education": [
+        {
+            "university": "Shiv Nadar University",
+            "degree": "B.Tech in Computer Science and Engineering",
+            "add_degree": "Minor in Mathematics",
+            "from": "2016",
+            "to": "2020",
+            "gpa": "8.57/10"
+        }
+    ],
+    "work_exp": [
+        {
+            "title": "Josh Technology Group",
+            "position": "Software Developer (Data Science Team)",
+            "from": "July 2020",
+            "to": "Present",
+            "description": ""
+        },
+        {
+            "title": "Josh Technology Group",
+            "position": "Software Developer Intern",
+            "from": "Jan 2020",
+            "to": "July 2020",
+            "description": ""
+        }
+    ]
+}
