@@ -172,7 +172,7 @@
 		  new WOW().init();	
 		/*END WOW ANIMATION JS*/
 
-		(function()
+		window.onload = function()
 		{
 		  if( window.localStorage )
 		  {
@@ -184,6 +184,6 @@
 			else
 			  localStorage.removeItem('firstLoad');
 		  }
-		})();
+		};
 
 })(jQuery);
