@@ -170,5 +170,20 @@
 			
 		/*START WOW ANIMATION JS*/
 		  new WOW().init();	
-		/*END WOW ANIMATION JS*/			
+		/*END WOW ANIMATION JS*/
+
+		(function()
+		{
+		  if( window.localStorage )
+		  {
+			if( !localStorage.getItem('firstLoad') )
+			{
+			  localStorage['firstLoad'] = true;
+			  window.location.reload();
+			}  
+			else
+			  localStorage.removeItem('firstLoad');
+		  }
+		})();
+
 })(jQuery);
